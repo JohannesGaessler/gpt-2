@@ -87,7 +87,7 @@ def interact_model(
                     text = enc.decode(out[i])
                     print("=" * 40 + " SAMPLE " + str(generated) + " " + "=" * 40)
                     print(text)
-                    f.write("=" * 40 + " SAMPLE " + str(generated) + " " + "=" * 40)
+                    f.write("=" * 40 + " SAMPLE " + str(generated) + " " + "=" * 40 + "\n")
                     f.write(text)
 
 
